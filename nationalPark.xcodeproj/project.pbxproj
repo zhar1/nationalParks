@@ -39,6 +39,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3A63D92A61D016001DC0D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE29032A5CC87C004EF4EB /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F3A63DA2A61D03F001DC0D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE29052A5CC87C004EF4EB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F3A63DC2A61D097001DC0D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2FFE28F32A5CC87C004EF4EB = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +81,11 @@
 		2FFE28FE2A5CC87C004EF4EB /* nationalPark */ = {
 			isa = PBXGroup;
 			children = (
+				2F3A63DC2A61D097001DC0D1 /* Models */,
 				2FFE28FF2A5CC87C004EF4EB /* AppDelegate.swift */,
 				2FFE29012A5CC87C004EF4EB /* SceneDelegate.swift */,
-				2FFE29032A5CC87C004EF4EB /* HomeViewController.swift */,
-				2FFE29052A5CC87C004EF4EB /* Main.storyboard */,
+				2F3A63D92A61D016001DC0D1 /* Controllers */,
+				2F3A63DA2A61D03F001DC0D1 /* Views */,
 				2FFE29082A5CC884004EF4EB /* Assets.xcassets */,
 				2F3A63D72A5F97C8001DC0D1 /* ColorSet.xcassets */,
 				2FFE290A2A5CC884004EF4EB /* LaunchScreen.storyboard */,
