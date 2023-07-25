@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F3A63D82A5F97C8001DC0D1 /* ColorSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A63D72A5F97C8001DC0D1 /* ColorSet.xcassets */; };
+		2FC41FC92A6345E00018FB1B /* ParksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC41FC82A6345E00018FB1B /* ParksViewController.swift */; };
+		2FC41FCC2A63472F0018FB1B /* ParkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC41FCA2A63472F0018FB1B /* ParkTableViewCell.swift */; };
+		2FC41FCD2A63472F0018FB1B /* ParkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC41FCB2A63472F0018FB1B /* ParkTableViewCell.xib */; };
 		2FFE29002A5CC87C004EF4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE28FF2A5CC87C004EF4EB /* AppDelegate.swift */; };
 		2FFE29022A5CC87C004EF4EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE29012A5CC87C004EF4EB /* SceneDelegate.swift */; };
 		2FFE29042A5CC87C004EF4EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE29032A5CC87C004EF4EB /* HomeViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		2F3A63D72A5F97C8001DC0D1 /* ColorSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSet.xcassets; sourceTree = "<group>"; };
+		2FC41FC82A6345E00018FB1B /* ParksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksViewController.swift; sourceTree = "<group>"; };
+		2FC41FCA2A63472F0018FB1B /* ParkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkTableViewCell.swift; sourceTree = "<group>"; };
+		2FC41FCB2A63472F0018FB1B /* ParkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkTableViewCell.xib; sourceTree = "<group>"; };
 		2FFE28FC2A5CC87C004EF4EB /* nationalPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nationalPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFE28FF2A5CC87C004EF4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FFE29012A5CC87C004EF4EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,7 @@
 		2F3A63D92A61D016001DC0D1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2FC41FC82A6345E00018FB1B /* ParksViewController.swift */,
 				2FFE29032A5CC87C004EF4EB /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -50,6 +57,8 @@
 		2F3A63DA2A61D03F001DC0D1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2FC41FCB2A63472F0018FB1B /* ParkTableViewCell.xib */,
+				2FC41FCA2A63472F0018FB1B /* ParkTableViewCell.swift */,
 				2FFE29052A5CC87C004EF4EB /* Main.storyboard */,
 			);
 			path = Views;
@@ -154,6 +163,7 @@
 			files = (
 				2F3A63D82A5F97C8001DC0D1 /* ColorSet.xcassets in Resources */,
 				2FFE290C2A5CC884004EF4EB /* LaunchScreen.storyboard in Resources */,
+				2FC41FCD2A63472F0018FB1B /* ParkTableViewCell.xib in Resources */,
 				2FFE29092A5CC884004EF4EB /* Assets.xcassets in Resources */,
 				2FFE29072A5CC87C004EF4EB /* Main.storyboard in Resources */,
 			);
@@ -166,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC41FC92A6345E00018FB1B /* ParksViewController.swift in Sources */,
 				2FFE29042A5CC87C004EF4EB /* HomeViewController.swift in Sources */,
+				2FC41FCC2A63472F0018FB1B /* ParkTableViewCell.swift in Sources */,
 				2FFE29002A5CC87C004EF4EB /* AppDelegate.swift in Sources */,
 				2FFE29022A5CC87C004EF4EB /* SceneDelegate.swift in Sources */,
 			);
